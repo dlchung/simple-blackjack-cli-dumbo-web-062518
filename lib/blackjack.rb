@@ -67,7 +67,7 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
-  hit?(num)
+  sum = initial_round
+  hit?(sum)
 end
     
