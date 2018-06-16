@@ -34,6 +34,7 @@ def initial_round
   for numbers in 1..2 do
     sum += deal_card
   end
+  display_card_total
 end
 
 def hit?
