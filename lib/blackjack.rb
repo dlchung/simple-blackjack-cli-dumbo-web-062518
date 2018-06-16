@@ -44,7 +44,7 @@ def hit?(num)
   input = get_user_input
   
   if input == "s"
-    
+    return num
   elsif input == "h"
   
   else
