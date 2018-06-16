@@ -38,8 +38,10 @@ def initial_round
   return sum
 end
 
-def hit?
+def hit?(num)
   # code hit? here
+  prompt_user
+  get_user_input
 end
 
 def invalid_command
