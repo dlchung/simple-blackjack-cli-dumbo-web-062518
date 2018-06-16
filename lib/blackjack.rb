@@ -30,6 +30,9 @@ end
 
 def initial_round
   # code #initial_round here
+  for numbers in 1..2 do
+    deal_card
+  end
 end
 
 def hit?
