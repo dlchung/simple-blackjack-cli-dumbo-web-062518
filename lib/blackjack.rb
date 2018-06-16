@@ -70,6 +70,7 @@ def runner
   sum = initial_round
   until sum > 21 do
     sum = hit?(sum)
+    display_card_total(sum)
   end
 end
     
