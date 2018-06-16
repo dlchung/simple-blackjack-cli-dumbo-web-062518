@@ -68,6 +68,8 @@ def runner
   # code runner here
   welcome
   sum = initial_round
-  hit?(sum)
+  until sum > 21 do
+    hit?(sum)
+  end
 end
     
