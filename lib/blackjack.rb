@@ -33,6 +33,7 @@ def initial_round
   for deal in 1..2 do
     display_card_total(deal_card)
   end
+  return
 end
 
 def hit?
