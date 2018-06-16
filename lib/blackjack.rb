@@ -33,7 +33,7 @@ def initial_round
   for deal in 1..2 do
     sum = display_card_total(deal_card)
   end
-  sum
+  return sum
 end
 
 def hit?
