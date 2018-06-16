@@ -42,6 +42,14 @@ def hit?(num)
   # code hit? here
   prompt_user
   input = get_user_input
+  
+  if input == "s"
+    
+  elsif input == "h"
+  
+  else
+    
+  end
 end
 
 def invalid_command
